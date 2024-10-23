@@ -292,7 +292,7 @@ a:any-link {
   background-color: #07043b;
   width: 100%;
   height: 590px;
-  padding: 65px 0px 42px 39px;
+  padding: 65px 39px 42px 39px;
 }
 
 .footer-logo img {
@@ -346,7 +346,7 @@ a:any-link {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 2px solid #dfe4f0;
+  border: 1px solid #dfe4f0;
   display: grid;
   place-content: center;
 }

@@ -65,21 +65,19 @@
             </p>
           </section>
 
-          <section class="main-hero-form">
-            <form action="https://httpbin.org/get" method="get">
-              <div class="main-hero-email">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-
-              <button type="submit">Get Started</button>
-            </form>
-          </section>
+          <form class="main-hero__form" action="./" method="post">
+            <div class="main-hero__form-email">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+                class="main-hero__email main-hero__email__error"
+              />
+              <span class="main-hero__error">Please check youe email</span>
+            </div>
+          </form>
         </section>
       </article>
 
@@ -189,21 +187,19 @@
           </p>
         </section>
 
-        <section class="main-hero-form">
-          <form action="https://httpbin.org/get" method="get">
-            <div class="main-hero-email">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="email@example.com"
-                required
-              />
-            </div>
-
-            <button type="submit">Get Started For Free</button>
-          </form>
-        </section>
+        <form class="main-access__form" action="./" method="post">
+          <div class="main-access__form-email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+              class="main-access__email main-access__email__error"
+            />
+            <span class="main-access__error">Please check youe email</span>
+          </div>
+        </form>
       </article>
     </main>
 

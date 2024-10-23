@@ -556,6 +556,13 @@ a:any-link {
     gap: 1.11vw;
   }
 
+  .contact-tel:hover,
+  .contact-tel:focus-visible,
+  .contact-mail:hover,
+  .contact-mail:focus-visible {
+    color: #6c9bff;
+  }
+
   .footer-logo img {
     max-width: 135px;
     margin-bottom: 36px;
@@ -568,6 +575,13 @@ a:any-link {
   .footer-links__contact {
     margin-bottom: 0px;
     margin-right: 15.42vw; /* 222px */
+  }
+
+  .footer-nav__cl1 p:hover,
+  .footer-nav__cl1 p:focus-visible,
+  .footer-nav__cl2 p:hover,
+  .footer-nav__cl2 p:focus-visible {
+    color: #6c9bff;
   }
 
   .footer-links__footer-nav {
@@ -588,5 +602,20 @@ a:any-link {
 
   .footer-links__social-links {
     align-items: flex-start;
+  }
+
+  .social-links-rad:hover .org,
+  .social-links-rad:focus-visible .org {
+    display: none;
+  }
+
+  .social-links-rad:hover .hvr,
+  .social-links-rad:focus-visible .hvr {
+    display: block;
+  }
+
+  .social-links-rad:hover,
+  .social-links-rad:focus-visible {
+    border-color: #6c9bff;
   }
 }

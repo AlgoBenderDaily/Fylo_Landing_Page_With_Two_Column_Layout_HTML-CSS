@@ -67,17 +67,26 @@
             </p>
           </section>
 
-          <form class="main-hero__form" action="./" method="post">
-            <div class="main-hero__form-email">
+          <form
+            class="main-hero__form"
+            action="https://httpbin.org/post/"
+            method="post"
+          >
+            <div class="main-hero__form-item">
               <input
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Enter your email"
+                placeholder="Enter your email..."
                 required
-                class="main-hero__email main-hero__email__error"
+                class="main-hero__form-input main-hero__form-input__error"
               />
-              <!-- <span class="main-hero__error">Please check youe email</span> -->
+            </div>
+
+            <div class="main-hero__form-item">
+              <button class="main-hero__form-btn" type="submit">
+                Get Started
+              </button>
             </div>
           </form>
         </section>
@@ -189,17 +198,26 @@
           </p>
         </section>
 
-        <form class="main-access__form" action="./" method="post">
-          <div class="main-access__form-email">
+        <form
+          class="main-access__form"
+          action="https://httpbin.org/get/"
+          method="get"
+        >
+          <div class="main-access__form-item">
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="Enter your email"
+              placeholder="email@example.com"
               required
-              class="main-access__email main-access__email__error"
+              class="main-access__form-input main-access__form-input__error"
             />
-            <!-- <span class="main-access__error">Please check your email</span> -->
+          </div>
+
+          <div class="main-access__form-item">
+            <button class="main-access__form-btn" type="submit">
+              Get Started For Free
+            </button>
           </div>
         </form>
       </article>
